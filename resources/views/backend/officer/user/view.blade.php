@@ -22,7 +22,7 @@
     <div class="panel-body" id="printThis"> 
         <div class="row"> 
             <div class="col-sm-3" align="center"> 
-                <img alt="Picture" src="{{ asset((!empty($user->photo)?$user->photo:'public/assets/img/icons/no_user.jpg')) }}" class="img-thumbnail img-responsive">
+                <img alt="Picture" src="{{ asset((!empty($user->photo)?$user->photo:'assets/img/icons/no_user.jpg')) }}" class="img-thumbnail img-responsive">
                 <h3>
                     {{ $user->firstname .' '. $user->lastname }}
                 </h3>

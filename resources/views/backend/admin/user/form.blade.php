@@ -65,7 +65,7 @@
 
             <div class="row">
                 <div class="col-sm-4">
-                    <img src="{{ asset((session('photo')?session('photo'):'public/assets/img/icons/no_user.jpg')) }}" alt="Photo" class="img-thubnail thumbnail" width="120" height="80"> 
+                    <img src="{{ asset((session('photo')?session('photo'):'assets/img/icons/no_user.jpg')) }}" alt="Photo" class="img-thubnail thumbnail" width="120" height="80"> 
                     <input type="file" name="photo" id="photo">  
                     <input type="hidden" name="old_photo" value="{{ session('photo') }}">   
                 </div> 

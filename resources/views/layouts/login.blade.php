@@ -10,13 +10,13 @@
     <!-- favicon -->
     <link rel="shortcut icon" href="{{ \Session::get('app.favicon') }}" type="image/x-icon" />
     <!-- font-awesome -->
-    <link href="{{ asset('public/assets/css/font-awesome.min.css') }}" rel='stylesheet'>
+    <link href="{{ asset('assets/css/font-awesome.min.css') }}" rel='stylesheet'>
     <!-- template bootstrap -->
-    <link href="{{ asset('public/assets/css/template.min.css') }}" rel='stylesheet prefetch'> 
+    <link href="{{ asset('assets/css/template.min.css') }}" rel='stylesheet prefetch'> 
     <!-- select2 -->
-    <link href="{{ asset('public/assets/css/select2.min.css') }}" rel='stylesheet'>
+    <link href="{{ asset('assets/css/select2.min.css') }}" rel='stylesheet'>
     <!-- Jquery  -->
-    <script src="{{ asset('public/assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
 </head>
 <body class="cm-login">
     <div class="loader">
@@ -37,7 +37,7 @@
 
     <div class="text-center" style="padding:35px 0 30px 0;background:#fff;border-bottom:1px solid #ddd;">
         <h2 class="text-primary text-center text-uppercase">{{ \Session::get('app.title') }}</h2>
-        <img src="{{ asset('public/assets/img/icons/logo.jpg') }}" width="300" >
+        <img src="{{ asset('assets/img/icons/logo.jpg') }}" width="300" >
     </div>
     
     <div class="col-sm-6 col-md-4 col-lg-3" style="margin:30px auto; float:none;">
@@ -83,11 +83,11 @@
     </footer> 
 
     <!-- Jquery  -->
-    <script src="{{ asset('public/assets/js/jquery.min.js') }}"></script>
+    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
     <!-- bootstrp -->
-    <script src="{{ asset('public/assets/js/bootstrap.min.js') }}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
     <!-- select2 -->
-    <script src="{{ asset('public/assets/js/select2.min.js') }}"></script>
+    <script src="{{ asset('assets/js/select2.min.js') }}"></script>
 
     <script type="text/javascript">
 

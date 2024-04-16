@@ -8,16 +8,16 @@
         <!-- favicon -->
         <link rel="shortcut icon" href="{{ asset(Session::get('app.favicon')) }}" type="image/x-icon" />
         <!-- template bootstrap -->
-        <link href="{{ asset('public/assets/css/template.min.css') }}" rel='stylesheet prefetch'>
+        <link href="{{ asset('assets/css/template.min.css') }}" rel='stylesheet prefetch'>
         <!-- roboto -->
-        <link href="{{ asset('public/assets/css/roboto.css') }}" rel='stylesheet'> 
+        <link href="{{ asset('assets/css/roboto.css') }}" rel='stylesheet'> 
         <!-- font-awesome -->
-        <link href="{{ asset('public/assets/css/font-awesome.min.css') }}" rel='stylesheet'> 
+        <link href="{{ asset('assets/css/font-awesome.min.css') }}" rel='stylesheet'> 
         <!-- custom style -->
-        <link href="{{ asset('public/assets/css/style.css') }}" rel='stylesheet'>
+        <link href="{{ asset('assets/css/style.css') }}" rel='stylesheet'>
          
         <!-- Jquery  -->
-        <script src="{{ asset('public/assets/js/jquery.min.js') }}"></script>
+        <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
     </head>
     <body class="cm-no-transition cm-1-navbar loader-process">
         <div class="loader">
@@ -141,7 +141,7 @@
               if (callCounter != null || callCounter != '') {
                 this.callCounter = callCounter;
               }
-              this.url       = this.url+`/public/assets/sounds/`;
+              this.url       = this.url+`assets/sounds/`;
               this.start     = this.url+`/start.mp3`;
               this.counter   = this.url+`/`+this.lang+`/counter.mp3`;
               this.token     = this.url+`/`+this.lang+`/token.mp3`; 

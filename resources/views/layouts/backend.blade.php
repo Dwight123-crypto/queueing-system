@@ -8,28 +8,28 @@
         <!-- favicon -->
         <link rel="shortcut icon" href="{{ asset(Session::get('app.favicon')) }}" type="image/x-icon" />
         <!-- template bootstrap -->
-        <link href="{{ asset('public/assets/css/template.min.css') }}" rel='stylesheet prefetch'>
+        <link href="{{ asset('assets/css/template.min.css') }}" rel='stylesheet prefetch'>
         <!-- roboto -->
-        <link href="{{ asset('public/assets/css/roboto.css') }}" rel='stylesheet'>
+        <link href="{{ asset('assets/css/roboto.css') }}" rel='stylesheet'>
         <!-- material-design -->
-        <link href="{{ asset('public/assets/css/material-design.css') }}" rel='stylesheet'>
+        <link href="{{ asset('assets/css/material-design.css') }}" rel='stylesheet'>
         <!-- small-n-flat -->
-        <link href="{{ asset('public/assets/css/small-n-flat.css') }}" rel='stylesheet'>
+        <link href="{{ asset('assets/css/small-n-flat.css') }}" rel='stylesheet'>
         <!-- font-awesome -->
-        <link href="{{ asset('public/assets/css/font-awesome.min.css') }}" rel='stylesheet'>
+        <link href="{{ asset('assets/css/font-awesome.min.css') }}" rel='stylesheet'>
         <!-- jquery-ui -->
-        <link href="{{ asset('public/assets/css/jquery-ui.min.css') }}" rel='stylesheet'>
+        <link href="{{ asset('assets/css/jquery-ui.min.css') }}" rel='stylesheet'>
         <!-- datatable -->
-        <link href="{{ asset('public/assets/css/dataTables.min.css') }}" rel='stylesheet'>
+        <link href="{{ asset('assets/css/dataTables.min.css') }}" rel='stylesheet'>
         <!-- select2 -->
-        <link href="{{ asset('public/assets/css/select2.min.css') }}"  rel='stylesheet'>
+        <link href="{{ asset('assets/css/select2.min.css') }}"  rel='stylesheet'>
         <!-- custom style -->
-        <link href="{{ asset('public/assets/css/style.css') }}" rel='stylesheet'>
+        <link href="{{ asset('assets/css/style.css') }}" rel='stylesheet'>
         <!-- Page styles --> 
         @stack('styles')
 
         <!-- Jquery  -->
-        <script src="{{ asset('public/assets/js/jquery.min.js') }}"></script>
+        <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
     </head>
     <body class="cm-no-transition cm-1-navbar loader-process">
         @include('backend.common.info')
@@ -54,7 +54,7 @@
         <div id="cm-menu">
             <nav class="cm-navbar cm-navbar-primary">
                 <div class="cm-flex"><a href="javascript:void(0)" class="cm-logo">
-                    <img src="{{ asset('public/assets/img/icons/logo.jpg') }}" width="210" height="50">
+                    <img src="{{ asset('assets/img/icons/logo.jpg') }}" width="210" height="50">
                 </a></div>
                 <div class="btn btn-primary md-menu-white" data-toggle="cm-menu"></div>
             </nav>
@@ -365,7 +365,7 @@
                     <button class="btn btn-primary md-account-circle-white" data-toggle="dropdown"></button>
                     <ul class="dropdown-menu">
                         <li class="disabled text-center">
-                            <img src="{{ !empty($user->photo)?asset($user->photo):asset('public/assets/img/icons/no_user.jpg') }}" width="140" height="105">
+                            <img src="{{ !empty($user->photo)?asset($user->photo):asset('assets/img/icons/no_user.jpg') }}" width="140" height="105">
                         </li>
                         <li class="disabled text-center">
                             <a style="cursor:default;"><strong>{{ $user->firstname .' '. $user->lastname }}</strong> 
@@ -411,23 +411,23 @@
 
         <!-- All js -->
         <!-- bootstrp -->
-        <script src="{{ asset('public/assets/js/bootstrap.min.js') }}"></script> 
+        <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script> 
         <!-- select2 -->
-        <script src="{{ asset('public/assets/js/select2.min.js') }}"></script>
+        <script src="{{ asset('assets/js/select2.min.js') }}"></script>
         <!-- juery-ui -->
-        <script src="{{ asset('public/assets/js/jquery-ui.min.js') }}"></script> 
+        <script src="{{ asset('assets/js/jquery-ui.min.js') }}"></script> 
         <!-- jquery.mousewheel.min -->
-        <script src="{{ asset('public/assets/js/jquery.mousewheel.min.js') }}"></script>
+        <script src="{{ asset('assets/js/jquery.mousewheel.min.js') }}"></script>
         <!-- jquery.cookie.min -->
-        <script src="{{ asset('public/assets/js/jquery.cookie.min.js') }}"></script>
+        <script src="{{ asset('assets/js/jquery.cookie.min.js') }}"></script>
         <!-- fastclick -->
-        <script src="{{ asset('public/assets/js/fastclick.min.js') }}"></script>
+        <script src="{{ asset('assets/js/fastclick.min.js') }}"></script>
         <!-- template -->
-        <script src="{{ asset('public/assets/js/template.js') }}"></script>
+        <script src="{{ asset('assets/js/template.js') }}"></script>
         <!-- datatable -->
-        <script src="{{ asset('public/assets/js/dataTables.min.js') }}"></script>
+        <script src="{{ asset('assets/js/dataTables.min.js') }}"></script>
         <!-- custom script -->
-        <script src="{{ asset('public/assets/js/script.js') }}"></script>
+        <script src="{{ asset('assets/js/script.js') }}"></script>
         
         <!-- Page Script -->
         @stack('scripts')

@@ -77,7 +77,7 @@ class SettingController extends Controller
         { 
             //Favicon
             if (!empty($request->favicon)) {
-                $faviconPath = 'public/assets/img/icons/favicon.jpg';
+                $faviconPath = 'assets/img/icons/favicon.jpg';
                 $favicon = $request->favicon;
                 Image::make($favicon)->resize(65, 50)->save($faviconPath);
             } else if (!empty($request->old_favicon)) {
@@ -86,7 +86,7 @@ class SettingController extends Controller
 
             // Logo
             if (!empty($request->logo)) {
-                $logoPath = 'public/assets/img/icons/logo.jpg';
+                $logoPath = 'assets/img/icons/logo.jpg';
                 $logo = $request->logo;
                 Image::make($logo)->resize(250, 50)->save($logoPath);
             } else if (!empty($request->old_logo)) {
