@@ -15,7 +15,7 @@
 
     <div class="panel-body" id="fullscreen">
     
-      <div class="media row" style="height:60px;background:#3498db;margin-top:-20px;margin-bottom:20px">
+      <div class="media row" style="height:60px;background:#5cba3c;margin-top:-20px;margin-bottom:20px">
         <div class="media-left hidden-xs">
           <img class="media-object" style="height:59px;" src="{{ asset('assets/img/icons/logo.jpg') }}" alt="Logo">
         </div>

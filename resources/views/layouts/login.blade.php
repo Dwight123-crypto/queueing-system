@@ -21,17 +21,25 @@
 <body class="cm-login">
     <div class="loader">
         <div>
-            <span>C</span>
-            <span>O</span>
-            <span>D</span>
-            <span>E</span>
-            <span></span>
-            <span>K</span>
-            <span>E</span>
             <span>R</span>
-            <span>N</span>
-            <span>E</span>
+            <span>Y</span>
+            <span>P</span>
+            <span>A</span>
+            <span>C</span>
+            <span>I</span>
+            <span></span>
+            <span>I</span>
+            <span>T</span>
+            <span></span>
+            <span>S</span>
+            <span>O</span>
             <span>L</span>
+            <span>U</span>
+            <span>T</span>
+            <span>I</span>
+            <span>O</span>
+            <span>N</span>
+            <span>S</span>
         </div>
     </div>
 
