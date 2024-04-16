@@ -22,7 +22,7 @@
 @stop
 
 @section('info.version')
-    <span class="label label-primary hidden-xs">v4.1.0</span>
+    <span class="label label-primary hidden-xs">v8.83.27</span>
 @stop
 
 @if (strtolower(env('APP_ENV'))=='demo')
