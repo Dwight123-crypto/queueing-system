@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
         <meta name="csrf-token" content="{{ csrf_token() }}">
         <title>{{ !empty($setting->title)?$setting->title:null }} :: @yield('title')</title>
-        <!-- favicon -->
+        <!-- fav -->
         <link rel="shortcut icon" href="{{ asset(Session::get('app.favicon')) }}" type="image/x-icon" />
         <!-- template bootstrap -->
         <link href="{{ asset('assets/css/template.min.css') }}" rel='stylesheet prefetch'>
